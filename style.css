@@ -171,18 +171,18 @@ h1 {
     margin: 0px;
 }
 
-.event_title{
+.event_title {
     color: #FF0000;
 }
 
-.btn_bg{
+.btn_bg {
     margin-top: 48px;
     background: #FF0000;
 }
 
 
 /* Best offer Section */
-.best_offer_section{
+.best_offer_section {
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -191,32 +191,32 @@ h1 {
     margin: 0 auto;
 }
 
-.fireworks{
+.fireworks {
     border: 15px solid #FF0000;
     border-radius: 365px;
     padding: 50px;
     margin: 0 50px;
 }
 
-.offer_content{
+.offer_content {
     width: 30%;
 }
 
 
 /* Holidays Sales section */
-.sales_section{
+.sales_section {
     width: 1320px;
     margin: 120px auto;
 }
 
-.sales_content{
+.sales_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: top;
 }
 
-.sales_images{
+.sales_images {
     background-image: url('images/Shopping.png'), url('images/BG_red.png');
     background-repeat: no-repeat;
     background-position: top right, bottom;
@@ -224,7 +224,7 @@ h1 {
 }
 
 
-.offer{
+.offer {
     margin-top: 100px;
     margin-left: 0;
     padding-left: 0;
@@ -232,10 +232,85 @@ h1 {
 
 /* Portfolio Section  */
 
-.portfolio_section{
+.portfolio_section {
     width: 1320px;
     margin: 120px auto;
 }
 
 /* Subscribe Section */
 
+.subscribe_section {
+    width: 1320px;
+    margin: 120px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.subscribe_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.subscribe_input {
+    width: 650px;
+    height: 72px;
+}
+
+.subscribe_input>input {
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+/* Footer Section  */
+.footer_section {
+    background-color: #070211;
+
+}
+
+.footer_content {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+hr {
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 0;
+    margin: 50px 0px;
+}
+
+.footer_section h4 {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer_images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+}
