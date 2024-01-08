@@ -230,4 +230,12 @@ h1 {
     padding-left: 0;
 }
 
+/* Portfolio Section  */
+
+.portfolio_section{
+    width: 1320px;
+    margin: 120px auto;
+}
+
+/* Subscribe Section */
 
