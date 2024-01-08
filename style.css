@@ -201,3 +201,33 @@ h1 {
 .offer_content{
     width: 30%;
 }
+
+
+/* Holidays Sales section */
+.sales_section{
+    width: 1320px;
+    margin: 120px auto;
+}
+
+.sales_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+}
+
+.sales_images{
+    background-image: url('images/Shopping.png'), url('images/BG_red.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom;
+    display: flex;
+}
+
+
+.offer{
+    margin-top: 100px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
