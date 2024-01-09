@@ -206,7 +206,7 @@ h1 {
     color: #FF0000;
     font-family: Inter;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .second_head_title {
@@ -301,12 +301,15 @@ h1 {
 
 .Portfolio_picture {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
 #picture_group_one {
     margin-bottom: 24px;
+}
+
+.images:hover {
+    opacity: .5;
 }
 
 /* Subscribe Section */
@@ -348,16 +351,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.Subscribe_btn input{
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-color: #FFFFFF;
-background: #FF0000;
-border-radius: 0px 50px 50px 0px;
+.Subscribe_btn input {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 0px 50px 50px 0px;
 }
 
 
@@ -392,7 +395,7 @@ hr {
 .flexible {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .contact {
